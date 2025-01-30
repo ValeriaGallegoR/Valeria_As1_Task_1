@@ -28,6 +28,9 @@ namespace Valeria_As1_Task_1 {
 
             //Calculate the total money spent by Carlo
             double TotalCostTrips = TotalCostCgy + TotalCostVan + TotalCostYmq;
+
+            //Calculate the total number of trips
+            int TotalTrips = TripsToCgy + TripsToVan + TripsToYmq;
         }
     }
 }
