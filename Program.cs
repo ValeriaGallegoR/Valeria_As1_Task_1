@@ -20,6 +20,12 @@ namespace Valeria_As1_Task_1 {
 
             Console.Write("Enter the number of trips to Montreal (YMQ): ");
             int TripsToYmq = int.Parse(Console.ReadLine());
+
+            //Calculate total cost for each trip
+            double TotalCostCgy = YyzToCgy * TripsToCgy;
+            double TotalCostVan = YyzToVan * TripsToVan;
+            double TotalCostYmq = YyzToYmq * TripsToYmq;
+
         }
     }
 }
