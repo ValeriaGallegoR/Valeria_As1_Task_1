@@ -10,6 +10,16 @@ namespace Valeria_As1_Task_1 {
             double YyzToCgy = 1350 * 2;
             double YyzToVan = 1500 * 2;
             double YyzToYmq = 575 * 2;
+
+            //Get the number of trips made by the user for each city
+            Console.Write("Enter the number of trips to Calgary (CGY): ");
+            int TripsToCgy = int.Parse(Console.ReadLine());
+
+            Console.Write("Enter the number of trips to Vancouver (VAN): ");
+            int TripsToVan = int.Parse(Console.ReadLine());
+
+            Console.Write("Enter the number of trips to Montreal (YMQ): ");
+            int TripsToYmq = int.Parse(Console.ReadLine());
         }
     }
 }
