@@ -31,6 +31,9 @@ namespace Valeria_As1_Task_1 {
 
             //Calculate the total number of trips
             int TotalTrips = TripsToCgy + TripsToVan + TripsToYmq;
+
+            //Calculate the average price per trip
+            double AverPriceTrip = TotalCostTrips / TotalTrips;
         }
     }
 }
