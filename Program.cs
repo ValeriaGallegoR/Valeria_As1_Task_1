@@ -32,8 +32,12 @@ namespace Valeria_As1_Task_1 {
             //Calculate the total number of trips
             int TotalTrips = TripsToCgy + TripsToVan + TripsToYmq;
 
-            //Calculate the average price per trip
+            //Calculate the average price for trips
             double AverPriceTrip = TotalCostTrips / TotalTrips;
+
+            //Output total money and average price for the trips
+            Console.WriteLine("Total money spent: " + TotalCostTrips);
+            Console.WriteLine("Average price for the trips: " + AverPriceTrip);
         }
     }
 }
