@@ -26,6 +26,8 @@ namespace Valeria_As1_Task_1 {
             double TotalCostVan = YyzToVan * TripsToVan;
             double TotalCostYmq = YyzToYmq * TripsToYmq;
 
+            //Calculate the total money spent by Carlo
+            double TotalCostTrips = TotalCostCgy + TripsToVan + TripsToYmq;
         }
     }
 }
